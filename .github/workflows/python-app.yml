@@ -19,5 +19,4 @@ jobs:
           python -m pip install --upgrade pip
       - name: Run Tests    
         run:
-          ls 
-          python -m test_multiply.py  
+          python -m test_multiply.py  ;
